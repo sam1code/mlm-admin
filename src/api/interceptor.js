@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "http://localhost:8080/api";
+const apiUrl = "https://mlm-bknd.onrender.com/api";
 
 const instance = axios.create({
   baseURL: apiUrl,
